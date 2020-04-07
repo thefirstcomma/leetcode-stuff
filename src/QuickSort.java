@@ -1,9 +1,11 @@
 import java.util.Random;
 
 public class QuickSort {
+    // to sort char array, just parse the print statement --> System.out.print((char)value)
+    // and pass char values to int[] arr, so int[] arr = {'a', 'c', 'b'};
 
     public static void main(String[] args) {
-        int[] arr = {7,4,2,9,1,3,6,5,10,8};
+        int[] arr = {'g', 'c', 'b', 'a'};
         printarr(arr);
         quicksort(arr, 0, arr.length-1);
         printarr(arr);
@@ -58,7 +60,7 @@ public class QuickSort {
     public static void printarr(int[] arr) {
         System.out.print("Array: ");
         for (int value : arr) {
-            System.out.print(value + ", ");
+            System.out.print((char)value + ", ");
         }
         System.out.println();
     }
