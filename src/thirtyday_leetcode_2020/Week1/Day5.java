@@ -1,4 +1,4 @@
-package thirtyday_leetcode_2020;
+package thirtyday_leetcode_2020.Week1;
 
 // equivalent to LeetCode122
 public class Day5 {
