@@ -29,7 +29,7 @@ public class Day14 {
                 sb.append(a);
                 finalShifts++;
             }
-            else if(finalShifts > 0) {
+            else {
                 char a = sb.charAt(sb.length()-1);
                 sb.deleteCharAt(sb.length()-1);
                 sb.insert(0,a);
