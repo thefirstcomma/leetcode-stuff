@@ -1,8 +1,6 @@
-package thirtyday_leetcode_2020.Week4;
+package leetcode;
 
-// equivalent to LeetCode201
-public class Day23 {
-
+public class LeetCode201 {
     public static void main(String[] args) {
         System.out.println(rangeBitwiseAnd(5, 7));
         System.out.println(rangeBitwiseAnd(40, 50));
