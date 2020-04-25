@@ -1,8 +1,8 @@
-package thirtyday_leetcode_2020.Week4;
-import java.util.*;
+package leetcode;
 
-// equivalent to LeetCode146
-public class Day24 {
+import java.util.LinkedHashMap;
+
+public class LeetCode146 {
 
     public static void main(String[] args) {
         LRUCache lru = new LRUCache(2);
