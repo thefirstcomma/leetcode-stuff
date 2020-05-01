@@ -1,6 +1,7 @@
-package leetcode;
+package april_thirtyday_leetcode_2020.Week5;
 
-public class LeetCode124 {
+// equivalent to LeetCode124
+public class Day29 {
 
     static int max = Integer.MIN_VALUE;
 
