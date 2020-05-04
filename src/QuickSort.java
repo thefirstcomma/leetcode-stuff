@@ -15,7 +15,6 @@ public class QuickSort {
         // Random pivot variation
         Random rand = new Random();
         int randomIndex = rand.nextInt(high-low) + low;
-        System.out.printf("Random pivot index: %d\n\n", randomIndex);
         int temp1 = arr[randomIndex];
         arr[randomIndex] = arr[high];
         arr[high] = temp1;
@@ -40,11 +39,10 @@ public class QuickSort {
         // tail optimized version
         while(low < high) {
             int pi = partition(arr, low, high);
-            System.out.println("Low: " + low + " Partition: " + pi + " High: " + high);
             quicksort(arr, low, pi-1);
             low = pi+1;
-            System.out.println("AFTER RECURSION: Low: " + low + " Partition: " + pi);
         }
+
 //        while(low < high) {
 //            int pi = partition(arr, low, high);
 //            if(pi - low < high - pi) {
