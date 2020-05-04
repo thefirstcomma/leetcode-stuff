@@ -1,5 +1,7 @@
 package leetcode;
 
+import java.util.Arrays;
+
 public class LeetCode27 {
 
     public static void main(String[] args) {
@@ -9,6 +11,20 @@ public class LeetCode27 {
     }
 
     public static int removeElement(int[] nums, int val) {
-        return -1;
+
+        int n = nums.length-1;
+        int i = 0;
+
+        while(i <= n) {
+            if(nums[i] == val) {
+                nums[i] = nums[n];
+                n--;
+            } else {
+
+                i++;
+            }
+        }
+        System.out.println(Arrays.toString(nums));
+        return i;
     }
 }
