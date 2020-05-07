@@ -19,9 +19,6 @@ public class LeetCode275 {
             if(middle+1 <= citations[middle]) {
                 result = middle+1;
                 low = middle+1;
-//            } else if (citations[middle] > middle+1) {
-//                result = Math.max(result, middle+1);
-//                low = middle+1;
             } else {
                 n = middle - 1;
             }
