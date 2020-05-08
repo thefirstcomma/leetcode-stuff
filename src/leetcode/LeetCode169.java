@@ -26,18 +26,18 @@ public class LeetCode169 {
 
     // O(n) time, O(1) space -- Moore's Majority Algorithm
     public static int alt1(int[] nums) {
-        int currentwinner = 0, count = 0;
+        int curr = 0, count = 0;
         for (int num : nums) {
             if (count == 0) {
-                currentwinner = num;
+                curr = num;
                 count++;
             } else {
-                if (num != currentwinner)
+                if (num != curr)
                     count--;
                 else
                     count++;
             }
         }
-        return currentwinner;
+        return curr;
     }
 }

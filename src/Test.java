@@ -3,9 +3,8 @@ import java.util.*;
 public class Test {
 
     public static void main(String[] args) {
-        int x = 123;
-        HashMap<String, List<String>> hash_map = new HashMap<>();
-
+        int a = 2_000_000_000;
+        int b = 2;
+        System.out.println(Math.multiplyExact(a, b));
     }
-
 }
