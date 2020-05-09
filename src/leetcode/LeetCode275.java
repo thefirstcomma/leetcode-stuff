@@ -11,18 +11,6 @@ public class LeetCode275 {
     }
 
     public static int hIndex(int[] citations) {
-        int n = citations.length;
-        int low = 0;
-        int result = 0;
-        while(low < n) {
-            int middle = (n-low)/2 + low;
-            if(middle+1 <= citations[middle]) {
-                result = middle+1;
-                low = middle+1;
-            } else {
-                n = middle - 1;
-            }
-        }
-        return result;
+        return 0;
     }
 }
