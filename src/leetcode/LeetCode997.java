@@ -1,7 +1,6 @@
-package may_thirtyday_leetcode_2020.week2;
+package leetcode;
 
-// equi to Leetcode997
-public class Day10 {
+public class LeetCode997 {
 
     public static void main(String[] args) {
         int[][] a = {{1,3},{1,4},{2,3},{2,4},{4,3}};
@@ -33,21 +32,4 @@ public class Day10 {
         }
         return -1;
     }
-
-    public static int alt1(int N, int[][] trust) {
-        int[] count = new int[N+1];
-
-        for(int i = 0; i < trust.length; i++) {
-            count[trust[i][0]] -= 1;
-            count[trust[i][1]] += 1;
-        }
-
-        for (int i = 1; i <= N; ++i) {
-            if (count[i] == N-1)
-                return i;
-        }
-
-        return -1;
-    }
-
 }
