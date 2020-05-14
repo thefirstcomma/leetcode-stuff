@@ -1,7 +1,6 @@
-package may_thirtyday_leetcode_2020.week2;
+package leetcode;
 
-// equivalent to Leetcode402
-public class Day13 {
+public class LeetCode402 {
 
     public static void main(String[] args) {
         System.out.println(removeKdigits("1111111", 3));
