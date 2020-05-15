@@ -1,10 +1,8 @@
-package may_thirtyday_leetcode_2020.week2;
+package leetcode;
 
 import java.util.*;
 
-// equiv to Leetcode208
-public class Day14 {
-
+public class LeetCode208 {
     public static void main(String[] args) {
         Trie obj = new Trie();
         obj.insert("apple");
@@ -119,4 +117,3 @@ class Trie {
 //        return false;
 //    }
 //}
-
