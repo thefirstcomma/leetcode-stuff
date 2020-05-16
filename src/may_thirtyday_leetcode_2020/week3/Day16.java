@@ -34,6 +34,10 @@ public class Day16 {
     }
 
     public static ListNode oddEvenList(ListNode head) {
+        return null;
+    }
+
+    public static ListNode a1(ListNode head) {
         if(head == null || head.next == null || head.next.next == null) return head;
         ListNode second = new ListNode(-1);
         ListNode secondPointer = second;
