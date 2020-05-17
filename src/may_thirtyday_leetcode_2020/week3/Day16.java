@@ -34,7 +34,22 @@ public class Day16 {
     }
 
     public static ListNode oddEvenList(ListNode head) {
-        return null;
+        if(head == null || head.next == null) return head;
+        ListNode odd = head;
+        ListNode evenPointer = odd.next;
+        ListNode even = odd.next;
+        while(even != null && even.next != null) {
+            odd.next = even.next;
+            odd = odd.next;
+            even.next = odd.next;
+            even = even.next;
+            System.out.print("odd: ");
+            print(odd);
+            System.out.print("even: ");
+            print(even);
+        }
+        odd.next = evenPointer;
+        return head;
     }
 
     public static ListNode a1(ListNode head) {
