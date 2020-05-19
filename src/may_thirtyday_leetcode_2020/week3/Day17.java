@@ -21,8 +21,6 @@ public class Day17 {
 
         int counter = map.size();
         int begin = 0, end = 0;
-        int head = 0;
-        int len = Integer.MAX_VALUE;
 
         while(end < s.length()){
             char c = s.charAt(end);
