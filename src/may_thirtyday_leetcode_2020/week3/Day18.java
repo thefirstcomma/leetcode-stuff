@@ -2,7 +2,7 @@ package may_thirtyday_leetcode_2020.week3;
 
 import java.util.*;
 
-// equiv to Leetcode567
+// equiv to Leetcode567 && Day17
 public class Day18 {
 
     public static void main(String[] args) {
