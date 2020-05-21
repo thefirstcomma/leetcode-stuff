@@ -11,6 +11,7 @@ public class Day14 {
         System.out.println(stringShift(s1, shift));
         System.out.println(stringShift(s2, shift2));
     }
+
     public static String stringShift(String s, int[][] shift) {
         int finalShifts = 0;
         for(int i = 0; i < shift.length; i++) {
