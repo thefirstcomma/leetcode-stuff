@@ -1,11 +1,10 @@
-package may_thirtyday_leetcode_2020.week4;
+package leetcode;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-// equiv to LeetCode451
-public class Day22 {
+public class LeetCode451 {
 
     public static void main(String[] args) {
         System.out.println(frequencySort("tree"));
