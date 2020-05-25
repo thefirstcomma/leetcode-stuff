@@ -1,9 +1,8 @@
-package may_thirtyday_leetcode_2020.week4;
+package leetcode;
 
 import java.util.Arrays;
 
-// equiv to LeetCode1035
-public class Day25 {
+public class LeetCode1035 {
 
     public static void main(String[] args) {
         System.out.println(maxUncrossedLines(new int[] {2,5,1,2,5}, new int[] {10,5,2,1,5,2}));
