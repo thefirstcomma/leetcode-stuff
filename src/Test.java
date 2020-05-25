@@ -3,13 +3,9 @@ import java.util.*;
 public class Test {
 
     public static void main(String[] args) {
-        int a = Integer.MIN_VALUE;
-
-        List<Integer> list = slidingWindowTemplate("bdfwacacbsfe", "abc");
-        for(int i = 0; i < list.size(); i++) {
-            System.out.print(list.get(i));
-        }
-        System.out.println();
+        int[] a = {1,2,3,4,5};
+        int i = 0;
+        System.out.println(a[i++]);
     }
 
     public static List<Integer> slidingWindowTemplate(String s, String t) {
