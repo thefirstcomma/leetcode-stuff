@@ -1,11 +1,11 @@
-package may_thirtyday_leetcode_2020.week5;
+package leetcode;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.Comparator;
 
 import static java.util.Arrays.deepToString;
 
-// equiv to LeetCode973
-public class Day30 {
+public class LeetCode973 {
 
     public static void main(String[] args) {
         int[][] m1 = {{1,3},{-2,2}};
