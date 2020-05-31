@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/leetcode-stuff.iml" filepath="$PROJECT_DIR$/leetcode-stuff.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alg-workspace.iml" filepath="$PROJECT_DIR$/alg-workspace.iml" />
     </modules>
   </component>
 </project>
