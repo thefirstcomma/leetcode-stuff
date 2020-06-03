@@ -51,7 +51,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunManager" selected="Application.Day2">
+  <component name="RunManager" selected="Application.Day3">
     <configuration name="Day1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="june_thirtyday_leetcode_2020.Day1" />
       <module name="leetcode-stuff" />
@@ -78,8 +78,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="june_thirtyday_leetcode_2020.Day3" />
+      <module name="leetcode-stuff" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="june_thirtyday_leetcode_2020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Day3" />
         <item itemvalue="Application.Day2" />
         <item itemvalue="Application.Day1" />
       </list>
@@ -115,22 +129,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="884" y="282" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590890937609" />
-    <state width="1579" height="278" key="GridCell.Tab.0.bottom" timestamp="1591132774673">
+    <state width="1579" height="280" key="GridCell.Tab.0.bottom" timestamp="1591225640482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1579" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591132774673" />
-    <state width="1579" height="278" key="GridCell.Tab.0.center" timestamp="1591132774673">
+    <state width="1579" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591225640482" />
+    <state width="1579" height="280" key="GridCell.Tab.0.center" timestamp="1591225640482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1579" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591132774673" />
-    <state width="1579" height="278" key="GridCell.Tab.0.left" timestamp="1591132774673">
+    <state width="1579" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591225640482" />
+    <state width="1579" height="280" key="GridCell.Tab.0.left" timestamp="1591225640482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1579" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591132774673" />
-    <state width="1579" height="278" key="GridCell.Tab.0.right" timestamp="1591132774673">
+    <state width="1579" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591225640482" />
+    <state width="1579" height="280" key="GridCell.Tab.0.right" timestamp="1591225640482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1579" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591132774673" />
+    <state width="1579" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591225640482" />
     <state x="320" y="164" key="SettingsEditor" timestamp="1590974931136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
